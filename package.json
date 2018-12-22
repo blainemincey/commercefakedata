@@ -1,0 +1,26 @@
+{
+  "name": "commercefakedata",
+  "version": "1.0.0",
+  "description": "Simple Node App to insert commerce related fake data into MongoDB.",
+  "main": "commerceFakeData.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blainemincey/commercefakedata.git"
+  },
+  "author": "Blaine Mincey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blainemincey/commercefakedata/issues"
+  },
+  "homepage": "https://github.com/blainemincey/commercefakedata#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "boolean": "^0.2.0",
+    "dotenv": "^6.2.0",
+    "faker": "^4.1.0",
+    "mongodb": "^3.1.10"
+  }
+}
