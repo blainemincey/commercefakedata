@@ -44,6 +44,7 @@ const insertDocuments = function(db, callback) {
 
     // Insert some documents
     collection.insertOne({
+      "sku" : faker.random.uuid(),
       "color" : faker.commerce.color(),
       "department" : faker.commerce.department(),
       "productName" : faker.commerce.productName(),
