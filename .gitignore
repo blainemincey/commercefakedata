@@ -66,6 +66,8 @@ typings/
 .env.development.local
 .env.test.local
 .env.production.local
+/.idea
 .idea/*
+.idea/
 
 package-lock.json
